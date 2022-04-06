@@ -1,0 +1,58 @@
+.Nft {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Nft .content .inf {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+.Nft .content {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 1rem;
+
+  width: 50vh;
+  height: 50vh;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 10%;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.Nft .content .btn {
+  margin-top: 50;
+  display: flex;
+  justify-content: space-around;
+}
+
+.form {
+  display: flex;
+  background-color: #ffffffcc;
+  color: #000;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 4px;
+  border-radius: 8px;
+  max-width: 500px;
+  width: 100%;
+  margin: 5 auto;
+}
+.form input[type="text"] {
+  border: transparent;
+  background-color: transparent;
+  font-size: 1.2rem;
+  font-family: "Popins", sans-serif;
+  width: 400px;
+}
+.form input[type="text"]:focus {
+  border: transparent;
+  outline: none;
+}
